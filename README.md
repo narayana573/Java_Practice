@@ -1,12 +1,16 @@
-# Java_Practice
-
-
+# Selenium Webdriver Notes
 
 ##### How to Handel Dropdown list
 ##### How to Handel Popup & i frames
 ##### How to handel Dynamic popup
 ##### How to Handel tables
+
 ##### implicitlyWait & ExplicitWait
+```
+// Wait For Page To Load
+driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+```
+
 ##### Database connection 
 ##### Git Commands
 
@@ -33,3 +37,6 @@ Actions actions = new Actions(driver);
  WebElement mainMenu = driver.findElement(By.linkText("menulink"));
 actions.moveToElement(mainMenu);
 ```
+
+
+actions.sendKeys(Keys.TAB).build().perform();
