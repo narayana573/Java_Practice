@@ -7,8 +7,15 @@
 
 ##### implicitlyWait & ExplicitWait
 ```
+implicitlyWait
 // Wait For Page To Load
 driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+```
+```
+ExplicitWait
+WebDriverWait wait=new WebDriverWait(driver,20);
+// Wait till the element is not visible
+WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("ur xpath here")));
 ```
 
 ##### Database connection 
