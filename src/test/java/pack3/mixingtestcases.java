@@ -36,6 +36,11 @@ public class mixingtestcases {
       practice_exercises_72 obj72 = new practice_exercises_72();
       practice_exercises_73 obj73 = new practice_exercises_73();
       practice_exercises_74 obj74 = new practice_exercises_74();
+      numbermapping objzz = new numbermapping();
+
+
+
+
 
         /*int x, y;
         double xx, yy;
@@ -87,10 +92,14 @@ public class mixingtestcases {
      // obj57.comparelast10char();
      // obj69.sumarray();
      // obj70.findlargentvalueinarray();
-      obj72.searcharray();
+     // obj72.searcharray();
      // obj73.evenvaluefindinarray();
      // obj73.evenvalueinarray();
      // obj74.sortarrayasd();
+
+
+
+      objzz.numcon();
 
   }
 
