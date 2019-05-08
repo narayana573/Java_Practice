@@ -18,16 +18,16 @@ Git Commands
 `Actions actions = new Actions(driver);`
 
 ###### Handel Drag & Drop:
- `//To get source locator
- WebElement sourceLocator = driver.findElement(By.cssSelector("#draggable"));
-                //To get target locator
- WebElement targetLocator = driver.findElement(By.cssSelector("#droppable"));
-                //dragAndDrop(source, target) method accepts two parameters source and locator. 
-                //used dragAndDrop method to drag and drop the source locator to target locator
- actions.dragAndDrop(sourceLocator, targetLocator).build().perform();
-`
+ `//To get source locator`
+` WebElement sourceLocator = driver.findElement(By.cssSelector("#draggable"));`
+  `              //To get target locator`
+` WebElement targetLocator = driver.findElement(By.cssSelector("#droppable"));`
+ ``               //dragAndDrop(source, target) method accepts two parameters source and locator. `
+ `               //used dragAndDrop method to drag and drop the source locator to target locator`
+ `actions.dragAndDrop(sourceLocator, targetLocator).build().perform();`
+
 ###### MoveToElement:
 `
- WebElement mainMenu = driver.findElement(By.linkText("menulink"));
-actions.moveToElement(mainMenu);`
+ WebElement mainMenu = driver.findElement(By.linkText("menulink"));`
+`actions.moveToElement(mainMenu);`
 
