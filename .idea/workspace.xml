@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbba821a-7fd7-4ff6-811d-f6a6a067af96" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice.iml" afterPath="$PROJECT_DIR$/Java_Practice.iml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pack1/sum.java" afterPath="$PROJECT_DIR$/src/test/java/pack1/sum.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pack3/mixingtestcases.java" afterPath="$PROJECT_DIR$/src/test/java/pack3/mixingtestcases.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Array_1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/While_Loop.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack1/conditionhandling.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack1/sum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/WordCount.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/comparestring.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/devisiblebyxnum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_57.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_58.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_59.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_60.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_61.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_62.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_63.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_69.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_70.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_72.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_73.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/practice_exercises_74.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/printstars.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/stringtrim.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack2/sub.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack3/divisibleByNum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack3/fibonacciseries.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack3/mixingtestcases.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack3/multiply.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack3/numswap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack3/percentageAndGrade.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack3/primenumornot.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pack3/square.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="430">
-                <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <first_editor relative-caret-position="264">
+                <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -529,15 +492,31 @@
       <workItem from="1556979942114" duration="2123000" />
       <workItem from="1557125598647" duration="421000" />
       <workItem from="1557142633471" duration="14000" />
-      <workItem from="1557298909471" duration="2022000" />
+      <workItem from="1557298909471" duration="2269000" />
     </task>
+    <task id="LOCAL-00001" summary="Code Updated">
+      <created>1557301932150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557301932150</updated>
+    </task>
+    <task id="LOCAL-00002" summary="readme update">
+      <created>1557302023456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557302023456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152906000" />
+    <option name="totallyTimeSpent" value="153153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1600" height="826" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -548,7 +527,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22446044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5683453" sideWeight="0.497426" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5683453" sideWeight="0.497426" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24710424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -573,6 +552,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Code Updated" />
+    <MESSAGE value="readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -876,8 +860,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="430">
-            <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <first_editor relative-caret-position="264">
+            <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
