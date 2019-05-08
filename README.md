@@ -2,13 +2,13 @@
 
 
 
-#####How to Handel Dropdown list
-#####How to Handel Popup & i frames
-#####How to handel Dynamic popup
-#####How to Handel tables
-#####implicitlyWait & ExplicitWait
-#####Database connection 
-#####Git Commands
+##### How to Handel Dropdown list
+##### How to Handel Popup & i frames
+##### How to handel Dynamic popup
+##### How to Handel tables
+##### implicitlyWait & ExplicitWait
+##### Database connection 
+##### Git Commands
 
 
 
