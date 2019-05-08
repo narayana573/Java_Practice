@@ -43,7 +43,7 @@ Actions actions = new Actions(driver);
 ```
  WebElement mainMenu = driver.findElement(By.linkText("menulink"));
 actions.moveToElement(mainMenu);
+actions.sendKeys(Keys.TAB).build().perform();
 ```
 
 
-actions.sendKeys(Keys.TAB).build().perform();
