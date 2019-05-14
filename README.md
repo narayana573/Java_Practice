@@ -2,6 +2,39 @@
 
 ##### How to Handel Dropdown list
 ##### How to Handel Popup & i frames
+
+##iframe:
+How to switch over the elements in iframes using Web Driver commands:
+
+>By Index  -- driver.switchTo().frame(0);
+
+>By Name or Id  -- driver.switchTo().frame("iframe1");
+
+>By Web Element  -- driver.switchTo().frame(WebElement);
+
+##How to switch over the frame, if we CANNOT switch using ID or Web Element:
+```
+public class IndexOfIframe {
+ public static void main(String[] args) {
+  WebDriver driver = new FirefoxDriver();
+  driver.get("http://demo.guru99.com/test/guru99home/");
+  driver.manage().window().maximize();
+  //driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+  int size = driver.findElements(By.tagName("iframe")).size();
+
+  for (int i = 0; i <= size; i++) {
+   driver.switchTo().frame(i);
+   int total = driver.findElements(By.xpath("html/body/a/img")).size();
+   System.out.println(total);
+   driver.switchTo().defaultContent();
+  }
+ }
+}
+
+```
+
+
+
 ##### How to handel Dynamic popup
 ##### How to Handel tables
 
