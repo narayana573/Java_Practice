@@ -1,9 +1,20 @@
 # Selenium Webdriver Notes
 
 ##### How to Handel Dropdown list
-##### How to Handel Popup & i frames
 
-##iframe:
+```
+WebElement mySelectElement = driver.findElement(By.id("mySelect"));
+Select dropdown = new Select(mySelectElement);
+Now to select an option from that dropdown, we can do it in either of the three ways:
+
+dropdown.selectByVisibleText(“Bikes”); → Selecting an option by the text that is visible
+dropdown.selectByIndex(“1”); → Selecting, by choosing the Index number of that option
+dropdown.selectByValue(“option2”); → Selecting, by choosing the value of that option
+```
+
+##### How to Handel i frames
+
+## iframe:
 How to switch over the elements in iframes using Web Driver commands:
 
 >By Index  -- driver.switchTo().frame(0);
@@ -12,7 +23,7 @@ How to switch over the elements in iframes using Web Driver commands:
 
 >By Web Element  -- driver.switchTo().frame(WebElement);
 
-##How to switch over the frame, if we CANNOT switch using ID or Web Element:
+## How to switch over the frame, if we CANNOT switch using ID or Web Element:
 ```
 public class IndexOfIframe {
  public static void main(String[] args) {
@@ -35,8 +46,70 @@ public class IndexOfIframe {
 
 
 
-##### How to handel Dynamic popup
+##### How to handel Dynamic popup & Alert
+
+
+## Alert
+```
+// Switching to Alert        
+Alert alert = driver.switchTo().alert();    
+// Capturing alert message.    
+String alertMessage= driver.switchTo().alert().getText();   
+// Displaying alert message   
+System.out.println(alertMessage); 
+Thread.sleep(5000);
+// Accepting alert    
+alert.accept();
+// // Dismiss alert  
+alert.dismiss();
+
+```
+
+## Popup
+
+```
+String parentWindowHandler = driver.getWindowHandle(); // Store your parent window
+String subWindowHandler = null;
+
+Set<String> handles = driver.getWindowHandles(); // get all window handles
+Iterator<String> iterator = handles.iterator();
+while (iterator.hasNext()){
+    subWindowHandler = iterator.next();
+}
+driver.switchTo().window(subWindowHandler); // switch to popup window
+
+// Now you are in the popup window, perform necessary actions here
+
+driver.switchTo().window(parentWindowHandler);  // switch back to parent window
+```
+
+
+
 ##### How to Handel tables
+
+```
+public class RowandCell {
+    public static void main(String[] args) throws ParseException {
+      WebDriver wd;
+    System.setProperty("webdriver.chrome.driver","G://chromedriver.exe");
+     wd= new ChromeDriver();
+     wd.get("http://demo.guru99.com/test/web-table-element.php"); 
+     wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+     WebElement baseTable = wd.findElement(By.tagName("table"));
+      
+     //To find third row of table
+     WebElement tableRow = baseTable.findElement(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr[3]"));
+         String rowtext = tableRow.getText();
+     System.out.println("Third row of table : "+rowtext);
+        
+        //to get 3rd row's 2nd column data
+        WebElement cellIneed = tableRow.findElement(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr[3]/td[2]"));
+        String valueIneed = cellIneed.getText();
+        System.out.println("Cell value is : " + valueIneed); 
+        wd.close();
+    }
+}
+```
 
 ##### implicitlyWait & ExplicitWait
 ```
@@ -80,3 +153,21 @@ actions.sendKeys(Keys.TAB).build().perform();
 ```
 
 
+## TestNG Annotations
+
+```
+@Test(groups={“Car”})
+public void drive(){
+system.out.println(“Driving the vehicle”);
+}
+
+
+@Test(dependsOnMethods={“drive”},groups={cars})
+public void changeGear() {
+system.out.println("Change Gears”);
+}
+
+@Test(threadPoolSize = 3, invocationCount = 10)
+public void testServer() {
+}
+```
