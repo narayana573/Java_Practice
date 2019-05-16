@@ -125,9 +125,27 @@ WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.x
 ```
 
 ##### Database connection 
+
+```
+Step 1) Make a connection to the Database using method.
+
+DriverManager.getConnection(URL, "userid", "password") 
+Step 2) Create Query to the Database using the Statement Object.
+
+Statement stmt = con.createStatement();
+Step 3) Send the query to database using execute query and store the results in the ResultSet object.
+
+ResultSet rs = stmt.executeQuery(select * from employee;);
+
+```
 ##### Git Commands
 
+##### getScreenshotAs()
+```
+File shot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+      FileUtils.copyFile(shot, new File("D:\\ shot1.jpg"));
 
+```
 
 
 ###### Actions in Selenium Webdriver:
@@ -154,6 +172,27 @@ actions.sendKeys(Keys.TAB).build().perform();
 
 
 ## TestNG Annotations
+
+
+@BeforeSuite
+@AfterSuite
+@BeforeTest
+@AfterTest
+@BeforeGroups
+@AfterGroups
+@BeforeClass
+@AfterClass
+@BeforeMethod
+@AfterMethod
+
+@DataProvider	
+@Factory
+@Listeners
+@Parameters
+@Test
+
+
+
 
 ```
 @Test(groups={“Car”})
