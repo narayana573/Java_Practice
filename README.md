@@ -22,20 +22,20 @@ if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnore
 
 ##### XPATH
 
-> Xpath=//tagname[@attribute='value']
+> Xpath=//tagname[@attribute='value'] <br><br>
 
-> Xpath=//*[contains(@name,'btn')]
-> Xpath=//input[@type='submit' and @name='btnLogin']
-> Xpath=//label[starts-with(@id,'message')]
-> Xpath=//*[@type='text']//following::input
-> Xpath=//*[text()='Enterprise Testing']//ancestor::div
-> Xpath=//*[@id='java_technologies']/child::li[1]
-> Xpath=//*[@type='submit']//preceding::input
-> Xpath=//*[@type='submit']//following-sibling::input
-> Xpath=//*[@id='rt-feature']//parent::div
-> Xpath =//*[@type='password']//self::input
-> Xpath=//*[@id='rt-feature']//descendant::a
-> Xpath=//*[@id='rt-feature']//descendant::a[1]
+> Xpath=//*[contains(@name,'btn')]<br>
+> Xpath=//input[@type='submit' and @name='btnLogin']<br>
+> Xpath=//label[starts-with(@id,'message')]<br>
+> Xpath=//*[@type='text']//following::input<br>
+> Xpath=//*[text()='Enterprise Testing']//ancestor::div<br>
+> Xpath=//*[@id='java_technologies']/child::li[1]<br>
+> Xpath=//*[@type='submit']//preceding::input<br>
+> Xpath=//*[@type='submit']//following-sibling::input<br>
+> Xpath=//*[@id='rt-feature']//parent::div<br>
+> Xpath =//*[@type='password']//self::input<br>
+> Xpath=//*[@id='rt-feature']//descendant::a<br>
+> Xpath=//*[@id='rt-feature']//descendant::a[1]<br>
 
 
 
@@ -199,24 +199,24 @@ actions.sendKeys(Keys.TAB).build().perform();
 
 
 ## TestNG Annotations
+<br><br>
 
+@BeforeSuite <br>
+@AfterSuite <br>
+@BeforeTest <br>
+@AfterTest <br>
+@BeforeGroups <br>
+@AfterGroups<br>
+@BeforeClass<br>
+@AfterClass<br>
+@BeforeMethod<br>
+@AfterMethod<br><br>
 
-@BeforeSuite
-@AfterSuite
-@BeforeTest
-@AfterTest
-@BeforeGroups
-@AfterGroups
-@BeforeClass
-@AfterClass
-@BeforeMethod
-@AfterMethod
-
-@DataProvider	
-@Factory
-@Listeners
-@Parameters
-@Test
+@DataProvider	<br>
+@Factory<br>
+@Listeners<br>
+@Parameters<br>
+@Test<br>
 
 
 
