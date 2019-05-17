@@ -14,6 +14,9 @@ dropdown.selectByValue(“option2”); → Selecting, by choosing the value of t
 
 ##### How to Handel i frames
 
+
+##### How to Handel i frames
+
 ## iframe:
 How to switch over the elements in iframes using Web Driver commands:
 
@@ -210,3 +213,52 @@ system.out.println("Change Gears”);
 public void testServer() {
 }
 ```
+
+
+
+###### OOPS
+
+
+#### Encapsulation:
+
+Encapsulation can be achieved by: Declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.<br>
+
+Encapsulation is also known as “data Hiding“
+> 1. It improves maintainability and flexibility and re-usability
+> 2. The fields can be made read-only
+> 3. User would not be knowing what is going on behind the scene.
+
+```
+public class Student{ 
+
+//private data member  
+private String name;  
+
+//getter method for name  
+public String getName(){  
+return name;  
+}  
+
+
+//setter method for name  
+public void setName(String name){  
+this.name=name  
+}  
+
+
+} 
+```
+
+#### Inheritence:
+https://www.geeksforgeeks.org/inheritance-in-java/ <br>
+
+It is the mechanism in java by which one class is allow to inherit the features(fields and methods) of another class<br>
+
+Single Inheritance : In single inheritance, subclasses inherit the features of one superclass. In image below, the class A serves as a base class for the derived class B.<br>
+
+
+
+#### Polymorphism:
+#### Abstraction:
+
+
