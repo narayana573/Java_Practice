@@ -12,7 +12,32 @@ dropdown.selectByIndex(“1”); → Selecting, by choosing the Index number of 
 dropdown.selectByValue(“option2”); → Selecting, by choosing the value of that option
 ```
 
-##### How to Handel i frames
+##### How to Handel Browser
+```
+if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("chrome")) {
+      System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+      driver = new ChromeDriver();
+    }
+```
+
+##### XPATH
+
+> Xpath=//tagname[@attribute='value']
+
+> Xpath=//*[contains(@name,'btn')]
+> Xpath=//input[@type='submit' and @name='btnLogin']
+> Xpath=//label[starts-with(@id,'message')]
+> Xpath=//*[@type='text']//following::input
+> Xpath=//*[text()='Enterprise Testing']//ancestor::div
+> Xpath=//*[@id='java_technologies']/child::li[1]
+> Xpath=//*[@type='submit']//preceding::input
+> Xpath=//*[@type='submit']//following-sibling::input
+> Xpath=//*[@id='rt-feature']//parent::div
+> Xpath =//*[@type='password']//self::input
+> Xpath=//*[@id='rt-feature']//descendant::a
+> Xpath=//*[@id='rt-feature']//descendant::a[1]
+
+
 
 
 ##### How to Handel i frames
@@ -131,13 +156,12 @@ WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.x
 
 ```
 Step 1) Make a connection to the Database using method.
-
 DriverManager.getConnection(URL, "userid", "password") 
+
 Step 2) Create Query to the Database using the Statement Object.
-
 Statement stmt = con.createStatement();
-Step 3) Send the query to database using execute query and store the results in the ResultSet object.
 
+Step 3) Send the query to database using execute query and store the results in the ResultSet object.
 ResultSet rs = stmt.executeQuery(select * from employee;);
 
 ```
