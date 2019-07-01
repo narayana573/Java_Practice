@@ -36,7 +36,7 @@ public class mixingtestcases {
       practice_exercises_72 obj72 = new practice_exercises_72();
       practice_exercises_73 obj73 = new practice_exercises_73();
       practice_exercises_74 obj74 = new practice_exercises_74();
-      numbermapping objzz = new numbermapping();
+      //numbermapping objzz = new numbermapping();
 
 
 
@@ -99,7 +99,7 @@ public class mixingtestcases {
 
 
 
-      objzz.numcon();
+      //objzz.numcon();
 
   }
 
